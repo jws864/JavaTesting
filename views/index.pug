@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+  head
+    title= title
+  body
+    h1= "Please submit name:"
+      form(method='POST' action='/stuff')
+        div.form-group
+        label(for='name')
+        input#name.form-control(type='text', placeholder='Name' name='name')
+        button.btn.btn-primary(type='submit') Submit
+    h1= message
+
+
