@@ -31,9 +31,6 @@ app.post('/stuff', (req, res) => {
          saying.name += ", Welcome new user";
          }
      }
-     //else{
-       // saying.name = " ";
-     //}
     
 
  console.log(req.body.name);
